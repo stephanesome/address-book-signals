@@ -7,10 +7,10 @@ import {NotificationService} from "./notification.service";
 
 @Component({
   selector: 'app-address-list',
-  standalone: true,
   imports: [CommonModule, AddressListElementComponent, AddressViewComponent],
   templateUrl: './address-list.component.html',
   styleUrls: ['./address-list.component.css'],
+  standalone: true,
   providers: [NotificationService]
 })
 export class AddressListComponent {
