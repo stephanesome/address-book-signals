@@ -1,5 +1,5 @@
 import {Component, inject} from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import {AddressEntry} from "./address-entry";
 import {AddressListElementComponent} from "./address-list-element/address-list-element.component";
 import {AddressViewComponent} from "./address-view/address-view.component";
@@ -7,7 +7,7 @@ import {NotificationService} from "./notification.service";
 
 @Component({
   selector: 'app-address-list',
-  imports: [CommonModule, AddressListElementComponent, AddressViewComponent],
+  imports: [AddressListElementComponent, AddressViewComponent],
   templateUrl: './address-list.component.html',
   styleUrls: ['./address-list.component.css'],
   standalone: true,

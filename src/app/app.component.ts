@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import {HeaderComponent} from "./header/header.component";
 import {AddressListComponent} from "./address-list/address-list.component";
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, HeaderComponent, AddressListComponent],
+  imports: [HeaderComponent, AddressListComponent],
   templateUrl: './app.component.html',
   standalone: true,
   styleUrls: ['./app.component.css']

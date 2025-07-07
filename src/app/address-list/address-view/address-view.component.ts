@@ -1,11 +1,11 @@
 import {Component, input, OnInit, output} from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import {AddressEntry} from "../address-entry";
 import {FormsModule} from "@angular/forms";
 
 @Component({
   selector: 'app-address-view',
-  imports: [CommonModule, FormsModule],
+  imports: [FormsModule],
   templateUrl: './address-view.component.html',
   standalone: true,
   styleUrls: ['./address-view.component.css']
